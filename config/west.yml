@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: config-swoop-zmk
+      url: https://github.com/KastenTaco/config-swoop-zmk
+      revision: main
+      path: modules/config-swoop-zmk
   self:
     path: config
